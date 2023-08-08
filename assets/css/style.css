@@ -2899,9 +2899,6 @@ a:hover .btn-box {
   width: 200px;
   position: relative;
 }
-.header .group-header .header-bottom .fix-bottom .inner .ranking-area:hover .ranking-hover {
-  opacity: 1;
-}
 .header .group-header .header-bottom .fix-bottom .inner .ranking-area .ranking {
   height: 100%;
   margin-left: 0;
@@ -2940,6 +2937,7 @@ a:hover .btn-box {
   width: 104px;
 }
 .header .group-header .header-bottom .fix-bottom .inner .ranking-area .ranking-hover {
+  display: none;
   position: absolute;
   top: 35px;
   right: 0px;

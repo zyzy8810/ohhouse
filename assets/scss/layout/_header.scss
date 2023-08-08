@@ -296,11 +296,11 @@
             display: flex;
             width: 200px;
             position: relative;
-            &:hover{
-              .ranking-hover{
-                opacity: 1;
-              }
-            }
+            // &:hover{
+            //   .ranking-hover{
+            //     opacity: 1;
+            //   }
+            // }
             .ranking {
               height: 100%;
               margin-left: 0;
@@ -345,6 +345,7 @@
             }
 
             .ranking-hover {
+              display: none;
               position: absolute;
               top: 35px;
               right: 0px;

@@ -56,11 +56,11 @@ $(function (){ //문서로드 후 실행 1번만!
     }
   );
 
-  $('.ranking-hover .close-btn').click(function() {
-    $(this).closest('.ranking-hover').fadeOut(function() {
-      $(this).css('display', 'none');
-    });
-  });
+  // $('.ranking-hover .close-btn').click(function() {
+  //   $(this).closest('.ranking-hover').fadeOut(function() {
+  //     $(this).css('display', 'none');
+  //   });
+  // });
 
 
   $(document).click(function(e){
