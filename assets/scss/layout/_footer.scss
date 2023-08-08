@@ -1,0 +1,194 @@
+/* footer */
+.footer{
+  background-color: rgb(247, 249, 250);
+  padding: 40px 60px;
+  margin: 0px auto;
+  .inner{
+    .footer-wrap{
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      line-height: 16px;
+      column-gap: 30px;
+      max-width: 1256px;
+      .group-cs{
+        .link-cs{
+
+          display: flex;
+          -webkit-box-align: center;
+          align-items: center;
+          cursor: pointer;
+          span{
+            font-size: 12px;
+              line-height: 1;
+              font-weight: normal;
+
+              &.under{
+                font-size: 17px;
+                line-height: 24px;
+                font-weight: 700;
+              }
+              &:hover.under{
+                text-decoration: underline;
+              }
+          }
+        }
+        .cs-wrap {
+          display: flex;
+          align-items: center;
+          margin: 20px 0px 8px;
+          .tel{
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 700;
+            white-space: nowrap;
+            margin-right: 6px;
+            &:hover{
+              text-decoration: underline;
+            }
+          }
+          .time{
+            font-size: 14px;
+            line-height: 20px;
+          }
+        }
+        .desc-wrap{
+          .desc{
+            font-size: 12px;
+            line-height: 20px;
+            white-space: pre-wrap;
+            margin-bottom: 12px;
+          }
+        }
+        .btn-wrap{
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+          margin-top: -20px;
+          .btn-mail,.btn-cs{
+            margin: 0px;
+  background: none;
+  font-style: inherit;
+  font-variant: inherit;
+  font-stretch: inherit;
+  font-family: inherit;
+  font-optical-sizing: inherit;
+  font-kerning: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-size: 14px;
+  line-height: 20px;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 32px;
+  border-radius: 4px;
+  padding: 0px 8px;
+  font-weight: 400;
+  box-sizing: border-box;
+  text-align: center;
+  color: rgb(47, 52, 56);
+  border: 1px solid rgb(218, 221, 224);
+  width: fit-content;
+  white-space: nowrap;
+          }
+        }
+      }
+      .group-link{
+        padding: 0 40px;
+        border-right: 1px solid rgb(234, 237, 239);
+        border-left: 1px solid rgb(234, 237, 239);
+        .link-list{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          gap: 20px 10px;
+          .link-item{
+            &:hover{
+              text-decoration: underline;
+            }
+            &.bold{
+  font-size: 12px;
+  line-height: 16px;
+  color: rgb(47, 52, 56);
+  white-space: nowrap;
+  font-weight: 700;
+}
+          }
+        }
+      }
+      .group-info{
+        color: #828c94;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        .addr-area{
+          span{
+            display: block;
+            font-size: 12px;
+              line-height: 20px;
+              display: inline-block;
+              white-space: nowrap;
+              .bold{
+                font-weight: bold;
+                &:hover{
+                  text-decoration: underline;
+                }
+              }
+          }
+        }
+        .mark-area{
+          display: flex;
+          font-size: 10px;
+          line-height: 14px;
+          color: rgb(130, 140, 148);
+          .mark-item1{
+            display: flex;
+            align-items: center;
+            gap:6px;
+            img{
+              width: 32px;
+            }
+            .text-wrap{
+              display: flex;
+              flex-direction: column;
+            }
+          }
+          .mark-item2{
+            display: flex;
+            align-items: center;
+            gap:6px;
+            img{
+              width: 32px;
+            }
+            .text-wrap{
+              display: flex;
+              flex-direction: column;
+            }
+          }
+
+        }
+
+        .desc{
+          font-size: 10px;
+            line-height: 14px;
+            color: rgb(130, 140, 148);
+        }
+
+        .copy{
+          font-size: 10px;
+        }
+
+        .sns-area{
+          .sns-list{
+            display: flex;
+            gap: 14px;
+          }
+        }
+        
+      }
+    }
+  }
+}

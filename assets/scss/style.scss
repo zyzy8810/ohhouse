@@ -1,0 +1,12 @@
+@import './utils/var';//변수부터 있어야 다른것들 작용가능
+@import './utils/var';//재활용소스
+
+@import './base/typo';
+@import './base/reset';
+@import './base/common';
+
+@import './layout/header';
+@import './layout/footer';
+
+@import './page/main';
+
