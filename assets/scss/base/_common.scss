@@ -313,9 +313,16 @@ a{
 
 
 
+
 .blue{
   color: rgb(0, 159, 206);
   margin-right: 10px;
+}
+
+button{
+  &.swiper-button-disabled {
+    display: none;
+  }
 }
 
 /* .img-box img{

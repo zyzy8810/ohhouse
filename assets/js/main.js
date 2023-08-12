@@ -92,9 +92,6 @@ $(function (){ //문서로드 후 실행 1번만!
       $(this).toggleClass("active");
     });
 
-
-
-  swiper
   var ranking = new Swiper(".ranking", {
     direction: "vertical",
     autoplay: {
@@ -181,8 +178,6 @@ $(function (){ //문서로드 후 실행 1번만!
     },
   });
   
-
-
 
 setInterval(() => {
 

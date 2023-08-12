@@ -2640,6 +2640,10 @@ a:hover .btn-box {
   margin-right: 10px;
 }
 
+button.swiper-button-disabled {
+  display: none;
+}
+
 /* .img-box img{
   transition: transform 0.2s ease 0s;
 }
