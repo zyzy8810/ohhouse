@@ -3,6 +3,22 @@ body{
   margin: 0 auto;
 }
 
+.skip-nav {
+  position: relative;
+
+  a {
+    position: absolute;
+    line-height: 50px;
+    background: #f00;
+    color: #fff;
+    top: -50px;
+
+    &:focus, &:active {
+      top: 0;
+    }
+  }
+}
+
 .blind{
   position: absolute;
   width: 1px;
